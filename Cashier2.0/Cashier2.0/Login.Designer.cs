@@ -1,4 +1,4 @@
-﻿namespace Cashier
+﻿namespace Cashier2._0
 {
     partial class Login
     {

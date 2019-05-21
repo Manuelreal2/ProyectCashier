@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Cashier
+namespace Cashier2._0
 {
-    public partial class MainView : Form
+    public partial class Login : Form
     {
-        public MainView()
+        public Login()
         {
             InitializeComponent();
         }
