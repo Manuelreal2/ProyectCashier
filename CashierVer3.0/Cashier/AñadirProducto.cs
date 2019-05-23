@@ -40,7 +40,9 @@ namespace Cashier
             {
                 if (validate == true)
                 {
-                    System.Windows.Forms.MessageBox.Show("El usuario se añadio con exito");
+                    Product p = new Product(int.Parse(textBox1.Text), textBox2.Text, double.Parse(textBox3.Text), int.Parse(textBox4.Text));
+                    System.Windows.Forms.MessageBox.Show("El producto se añadio con exito");
+                    Database.productList.Add(p);
                 }
                 textBox1.Clear();
                 textBox2.Clear();

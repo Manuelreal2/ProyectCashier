@@ -56,7 +56,9 @@ namespace Cashier
             {
                 if(validate == true)
                 {
+                    User u = new User(int.Parse(textBox1.Text), textBox2.Text, textBox3.Text, textBox4.Text, int.Parse(textBox5.Text));
                     System.Windows.Forms.MessageBox.Show("El usuario se añadio con exito");
+                    Database.userList.Add(u);
                 }
                 textBox1.Clear();
                 textBox2.Clear();
