@@ -60,16 +60,16 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 199);
+            this.groupBox1.Location = new System.Drawing.Point(12, 256);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(315, 167);
+            this.groupBox1.Size = new System.Drawing.Size(257, 110);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Producto";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(83, 95);
+            this.numericUpDown1.Location = new System.Drawing.Point(83, 63);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(126, 20);
             this.numericUpDown1.TabIndex = 3;
@@ -77,7 +77,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 97);
+            this.label2.Location = new System.Drawing.Point(25, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 35);
+            this.textBox1.Location = new System.Drawing.Point(83, 25);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(138, 20);
             this.textBox1.TabIndex = 1;
@@ -93,7 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(55, 38);
+            this.label1.Location = new System.Drawing.Point(55, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 13);
@@ -113,7 +113,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(333, 205);
+            this.button1.Location = new System.Drawing.Point(275, 262);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 49);
             this.button1.TabIndex = 2;
@@ -133,7 +133,7 @@
             this.OPCION});
             this.dataGridView1.Location = new System.Drawing.Point(12, 21);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(645, 145);
+            this.dataGridView1.Size = new System.Drawing.Size(645, 229);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -171,7 +171,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(663, 209);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 41);
+            this.button2.Size = new System.Drawing.Size(125, 41);
             this.button2.TabIndex = 5;
             this.button2.Text = "Añadir Usuario";
             this.button2.UseVisualStyleBackColor = true;
@@ -181,7 +181,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(663, 256);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 41);
+            this.button3.Size = new System.Drawing.Size(125, 41);
             this.button3.TabIndex = 6;
             this.button3.Text = "Eliminar Usuario";
             this.button3.UseVisualStyleBackColor = true;
@@ -191,7 +191,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(663, 303);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 36);
+            this.button4.Size = new System.Drawing.Size(125, 36);
             this.button4.TabIndex = 7;
             this.button4.Text = "Añadir Producto";
             this.button4.UseVisualStyleBackColor = true;
@@ -199,9 +199,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(661, 345);
+            this.button5.Location = new System.Drawing.Point(663, 345);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(122, 38);
+            this.button5.Size = new System.Drawing.Size(125, 38);
             this.button5.TabIndex = 8;
             this.button5.Text = "Eliminar Producto";
             this.button5.UseVisualStyleBackColor = true;
@@ -209,7 +209,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(333, 317);
+            this.button6.Location = new System.Drawing.Point(275, 317);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(109, 49);
             this.button6.TabIndex = 9;
