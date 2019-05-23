@@ -6,11 +6,5 @@ using System.Threading.Tasks;
 
 namespace Cashier
 {
-    class Storage
-    {
-        private List<User> Users;
-        private List<Product> Products;
-
-
-    }
+    
 }

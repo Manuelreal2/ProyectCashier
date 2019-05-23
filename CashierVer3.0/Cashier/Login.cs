@@ -43,11 +43,16 @@ namespace Cashier
                 a.Visible = true;
                 Visible = false;
             }
-            
+
         }
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void groupBox1_Enter_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
